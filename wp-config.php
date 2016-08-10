@@ -87,3 +87,11 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+define('FS_METHOD','direct');
+// define( 'FTP_USER', 'artx' );
+//define( 'FTP_PASS', '123' );
+//define( 'FTP_HOST', 'localhost:3080/articlex' );
+
+

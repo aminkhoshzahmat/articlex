@@ -1,0 +1,127 @@
+﻿.trah h3 {font-size:14px}
+.trah {
+float: left;
+margin-left: -107%;
+margin-top: -16px;
+}
+
+.main-navigation ul ul {
+float: right;
+left: 0px;
+right: -1px;
+width: 200%;
+}
+
+.site-footer .site-info {float:none}
+
+@font-face {
+    font-family: 'WYekan';
+    src: url('fonts/WeWYekan.eot');
+    src: url('fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WebYekan.woff') format('woff'),
+         url('fonts/WebYekan.ttf') format('truetype'),
+         url('fonts/WebYekan.svg#WebYekan') format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    unicode-range: U+0600–06FF;
+}
+#masthead .search-box .search-form label input.search-field { font-family:WYekan}
+.tinynav {margin-top:13px ; font-family:WYekan}
+.col-sm-6 {float:right}
+#masthead .site-branding {float:right}
+#featured-videos {direction: ltr}
+#masthead .search-box .search-form {float:left}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, input {
+
+	font-family: WYekan !important;
+
+	font-style: normal !important;
+	font-weight: normal !important;
+	;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: right;
+}
+
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-right: 1.5em;margin-left:0
+}
+
+textarea {
+	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+	padding-right: 3px;	padding-left:0;
+	vertical-align: top; /* Improves readability and alignment in all browsers */
+	
+}
+
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+.main-navigation li {
+	float: right;
+	position: relative;
+}
+
+
+.main-navigation ul ul {
+	
+	float: right;
+
+	
+}
+.main-navigation ul ul ul {
+	left: 0;
+	right:100%;
+
+}
+
+
+
+
+
+
+.comment-navigation .nav-previous,
+.paging-navigation .nav-previous,
+.post-navigation .nav-previous {
+
+text-align: left
+}
+
+
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+
+	left: 0;
+	right:5px
+
+}
+
+
+.alignleft {
+
+	float: right;
+	margin-left: 1.5em;margin-right:0
+}
+.alignright {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;margin-left:0
+}
